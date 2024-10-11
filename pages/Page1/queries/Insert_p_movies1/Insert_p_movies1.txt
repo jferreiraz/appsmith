@@ -1,0 +1,1 @@
+INSERT INTO p.movies ("title","director","release_year","genre","rating","duration") VALUES ('{{(Table1.newRow || {}).title}}','{{(Table1.newRow || {}).director}}','{{(Table1.newRow || {}).release_year}}','{{(Table1.newRow || {}).genre}}','{{(Table1.newRow || {}).rating}}','{{(Table1.newRow || {}).duration}}')
